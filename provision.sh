@@ -68,7 +68,7 @@ else:
     print('Superuser creation skipped.');
 "
 printf "$script" | python manage.py shell
-
+echo 'ALL Done'
 
 # 如果想直接进入/vagrant路径下
 # 请输入vagrant ssh命令进入
